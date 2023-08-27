@@ -1,0 +1,7 @@
+[user]
+	email = dan.mironenko@gmail.com
+	name = Daniil Mironenko
+[color]
+	ui = auto
+[core]
+	editor = nvim
