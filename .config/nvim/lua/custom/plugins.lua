@@ -21,22 +21,18 @@ local plugins = {
       require "custom.configs.lspconfig"
     end,
   },
-
   {
     "williamboman/mason.nvim",
     opts = overrides.mason
   },
-
   {
     "nvim-treesitter/nvim-treesitter",
     opts = overrides.treesitter,
   },
-
   {
     "nvim-tree/nvim-tree.lua",
     opts = overrides.nvimtree,
   },
-
   {
     "max397574/better-escape.nvim",
     event = "InsertEnter",
@@ -44,7 +40,6 @@ local plugins = {
       require("better_escape").setup()
     end,
   },
-
   {
     "nvim-telescope/telescope.nvim",
     opts = {
@@ -52,7 +47,7 @@ local plugins = {
         prompt_prefix = "   ",
       }
     }
-  }
+  },
 }
 
 return plugins

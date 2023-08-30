@@ -2,8 +2,8 @@
 local M = {}
 
 M.ui = {
-  theme = "ayu_dark",
-  theme_toggle = { "ayu_dark", "ayu_light" },
+  theme = "oxocarbon",
+  theme_toggle = { "oxocarbon", "github_light" },
 
   statusline = {
     theme = "vscode_colored",
@@ -24,7 +24,7 @@ M.ui = {
       { "  Themes", "Spc t h", "Telescope themes" },
       { "  Mappings", "Spc c h", "NvCheatsheet" },
     },
-  }
+  },
 }
 
 M.plugins = "custom.plugins"

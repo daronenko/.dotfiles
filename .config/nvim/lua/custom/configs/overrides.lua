@@ -32,7 +32,6 @@ M.mason = {
   ensure_installed = {
     -- lua
     "lua-language-server",
-    "selene",
     "stylua",
 
     -- web

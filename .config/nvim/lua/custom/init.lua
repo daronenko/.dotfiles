@@ -1,7 +1,7 @@
 local opt = vim.opt
 
 -- general
-opt.encoding = 'utf-8'
+opt.encoding = "utf-8"
 opt.swapfile = false
 
 -- line numbers

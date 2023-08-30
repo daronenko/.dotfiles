@@ -4,7 +4,6 @@ local b = null_ls.builtins
 
 local sources = {
   -- lua
-  b.diagnostics.selene,
   b.formatting.stylua,
 
   -- web
@@ -17,8 +16,8 @@ local sources = {
       "javascript",
       "typescript",
       "json",
-      "markdown"
-    }
+      "markdown",
+    },
   },
 
   -- ruby

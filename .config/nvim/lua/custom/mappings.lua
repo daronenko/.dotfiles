@@ -23,7 +23,17 @@ M.general = {
     ["<C-l>"] = { "<cmd> TmuxNavigateRight<CR>", "window right" },
     ["<C-j>"] = { "<cmd> TmuxNavigateDown<CR>", "window down" },
     ["<C-k>"] = { "<cmd> TmuxNavigateUp<CR>", "window up" },
+
+    ["<S-l>"] = { "<cmd> bnext<CR>" },
+    ["<S-h>"] = { "<cmd> bprevious<CR>" },
   },
+
+  v = {
+    ["<"] = { "<gv" },
+    [">"] = { ">gv" },
+
+    ["p"] = { '"_dP' },
+  }
 }
 
 M.nvterm = {
