@@ -12,6 +12,7 @@ local servers = {
   "pyright",
   "bashls",
   "texlab",
+  "marksman",
 }
 
 vim.diagnostic.config {

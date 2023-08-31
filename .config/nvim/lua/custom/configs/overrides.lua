@@ -43,8 +43,6 @@ M.mason = {
     "prettier",
 
     -- ruby
-    -- "solargraph",
-    -- "rubocop",
     "rubyfmt",
 
     -- c/cpp
@@ -66,6 +64,10 @@ M.mason = {
     -- latex
     "texlab",
     "latexindent",
+
+    -- markdown
+    "marksman",
+    "markdownlint"
   },
 }
 

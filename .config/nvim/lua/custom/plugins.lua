@@ -51,7 +51,7 @@ local plugins = {
   {
     "lervag/vimtex",
     lazy = false,
-    config = function ()
+    config = function()
       vim.g.vimtex_view_method = "sioyek"
       vim.g.vimtex_compiler_latexmk_engines = {
         _ = "-xelatex"
@@ -65,6 +65,16 @@ local plugins = {
       }
     end
   },
+  {
+    "iamcco/markdown-preview.nvim",
+    lazy = false,
+    build = "cd ~/.local/share/nvim/lazy/markdown-preview.nvim/app/ && ./install.sh",
+    run = "cd app && npm install",
+    config = function()
+        vim.g.mkdp_filetypes = { "markdown" }
+    end,
+    ft = { "markdown" },
+  }
 }
 
 return plugins

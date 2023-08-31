@@ -16,7 +16,6 @@ local sources = {
       "javascript",
       "typescript",
       "json",
-      "markdown",
     },
   },
 
@@ -43,6 +42,9 @@ local sources = {
 
   -- latex
   b.formatting.latexindent,
+
+  -- markdown
+  b.diagnostics.markdownlint,
 }
 
 null_ls.setup {
