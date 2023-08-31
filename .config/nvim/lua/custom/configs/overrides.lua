@@ -35,11 +35,11 @@ M.mason = {
     "stylua",
 
     -- web
-    "css-lsp",
     "html-lsp",
+    "css-lsp",
     "typescript-language-server",
-    "deno",
-    "rome",
+    "stylelint",
+    "eslint_d",
     "prettier",
 
     -- ruby

@@ -7,8 +7,6 @@ local servers = {
   "html",
   "cssls",
   "tsserver",
-  "denols",
-  "solargraph",
   "pyright",
   "bashls",
   "texlab",

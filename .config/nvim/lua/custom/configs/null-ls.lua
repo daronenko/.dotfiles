@@ -7,8 +7,8 @@ local sources = {
   b.formatting.stylua,
 
   -- web
-  b.formatting.deno_fmt,
-  b.formatting.rome,
+  b.diagnostics.stylelint,
+  b.code_actions.eslint_d,
   b.formatting.prettier.with {
     filetypes = {
       "html",
