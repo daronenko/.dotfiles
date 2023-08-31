@@ -26,6 +26,8 @@ local sources = {
   b.diagnostics.cpplint,
   b.formatting.clang_format,
 
+  b.diagnostics.cmake_lint,
+
   -- python
   b.diagnostics.mypy.with {
     extra_args = function()

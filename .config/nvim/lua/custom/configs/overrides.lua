@@ -50,6 +50,9 @@ M.mason = {
     "cpplint",
     "clang-format",
 
+    "cmake-language-server",
+    "cmakelint",
+
     -- python
     "pyright",
     "mypy",

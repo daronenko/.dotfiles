@@ -7,6 +7,7 @@ local servers = {
   "html",
   "cssls",
   "tsserver",
+  "cmake",
   "pyright",
   "bashls",
   "texlab",
