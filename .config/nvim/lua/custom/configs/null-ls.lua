@@ -42,7 +42,6 @@ local sources = {
   b.formatting.beautysh,
 
   -- latex
-  b.diagnostics.vale,
   b.formatting.latexindent,
 }
 

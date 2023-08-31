@@ -65,7 +65,6 @@ M.mason = {
 
     -- latex
     "texlab",
-    "vale",
     "latexindent",
   },
 }
