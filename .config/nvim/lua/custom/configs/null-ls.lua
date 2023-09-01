@@ -20,12 +20,14 @@ local sources = {
   },
 
   -- ruby
-  b.formatting.rubyfmt,
+  b.diagnostics.standardrb,
+  b.formatting.rufo,
 
   -- cpp
   b.diagnostics.cpplint,
   b.formatting.clang_format,
 
+  -- cmake
   b.diagnostics.cmake_lint,
 
   -- python

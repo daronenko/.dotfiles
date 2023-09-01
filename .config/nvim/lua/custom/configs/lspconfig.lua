@@ -9,6 +9,7 @@ local servers = {
   "tsserver",
   "cmake",
   "pyright",
+  "rubocop",
   "bashls",
   "texlab",
   "marksman",

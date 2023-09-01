@@ -43,7 +43,9 @@ M.mason = {
     "prettier",
 
     -- ruby
-    "rubyfmt",
+    "rubocop",
+    "standardrb",
+    "rufo",
 
     -- c/cpp
     "clangd",
