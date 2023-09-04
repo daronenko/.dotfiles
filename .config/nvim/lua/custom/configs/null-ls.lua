@@ -45,7 +45,7 @@ local sources = {
   b.formatting.beautysh,
 
   -- latex
-  b.formatting.latexindent,
+  -- b.formatting.latexindent,
 
   -- markdown
   b.diagnostics.markdownlint,

@@ -53,16 +53,16 @@ local plugins = {
     lazy = false,
     config = function()
       vim.g.vimtex_view_method = "sioyek"
-      vim.g.vimtex_compiler_latexmk_engines = {
-        _ = "-xelatex"
-      }
-      vim.g.tex_comment_nospell = 1
-      vim.g.vimtex_view_general_options = [[--unique file:@pdf\#src:@line@tex]]
-      vim.g.vimtex_quickfix_ignore_filters = {
-        "Underfull",
-        "Overfull",
-        "Negative"
-      }
+      -- vim.g.vimtex_compiler_latexmk_engines = {
+      --   _ = "-xelatex"
+      -- }
+      -- vim.g.tex_comment_nospell = 1
+      -- vim.g.vimtex_view_general_options = [[--unique file:@pdf\#src:@line@tex]]
+      -- vim.g.vimtex_quickfix_ignore_filters = {
+      --   "Underfull",
+      --   "Overfull",
+      --   "Negative"
+      -- }
     end
   },
   {
@@ -71,9 +71,16 @@ local plugins = {
     build = "cd ~/.local/share/nvim/lazy/markdown-preview.nvim/app/ && ./install.sh",
     run = "cd app && npm install",
     config = function()
-        vim.g.mkdp_filetypes = { "markdown" }
+      vim.g.mkdp_filetypes = { "markdown" }
     end,
     ft = { "markdown" },
+  },
+  {
+    "windwp/nvim-ts-autotag",
+    lazy = false,
+    config = function()
+      require("nvim-ts-autotag").setup()
+    end,
   }
 }
 
