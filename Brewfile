@@ -56,6 +56,8 @@ brew "tldr"
 brew "tmux"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
+# postgres database
+brew "postgresql@15"
 # Distribution of the Python and R programming languages for scientific computing
 cask "anaconda"
 # Terminal emulator as alternative to Apple's Terminal app
