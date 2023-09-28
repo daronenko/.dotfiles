@@ -8,6 +8,7 @@ brew bundle --file=./Brewfile
 
 stow .
 colima start
+conda config --set auto_activate_base false
 
 # setup git
 git config --global user.email dan.mironenko@gmail.com
