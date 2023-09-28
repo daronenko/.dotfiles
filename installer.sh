@@ -26,4 +26,4 @@ fish_add_path /opt/homebrew/bin
 echo "/opt/homebrew/bin/fish" | sudo tee -a /etc/shells
 chsh -s /opt/homebrew/bin/fish
 
-fish_add_path /Library/PostgreSQL/15/bin/
+fish_add_path /opt/homebrew/opt/libpq/bin

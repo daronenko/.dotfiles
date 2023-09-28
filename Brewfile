@@ -60,6 +60,8 @@ brew "tree"
 brew "postgresql@15"
 # move .dotfiles
 brew "stow"
+# psql
+brew "libpq"
 # Distribution of the Python and R programming languages for scientific computing
 cask "anaconda"
 # Terminal emulator as alternative to Apple's Terminal app
