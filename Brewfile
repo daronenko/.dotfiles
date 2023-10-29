@@ -62,6 +62,8 @@ brew "postgresql@15"
 brew "stow"
 # psql
 brew "libpq"
+# 'go to definition' feature
+brew "ctags"
 # Distribution of the Python and R programming languages for scientific computing
 cask "anaconda"
 # Terminal emulator as alternative to Apple's Terminal app

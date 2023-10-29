@@ -20,7 +20,7 @@ local sources = {
   },
 
   -- ruby
-  b.diagnostics.standardrb,
+  b.diagnostics.rubocop,
   b.formatting.rufo,
 
   -- cpp

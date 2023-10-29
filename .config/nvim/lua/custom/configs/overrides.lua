@@ -44,7 +44,6 @@ M.mason = {
 
     -- ruby
     "rubocop",
-    "standardrb",
     "rufo",
 
     -- c/cpp
@@ -78,16 +77,22 @@ M.mason = {
 
 -- git support in nvimtree
 M.nvimtree = {
+  view = {
+    width = 35,
+  },
+
   git = {
     enable = true,
   },
 
   renderer = {
-    highlight_git = true,
     icons = {
       show = {
         git = true,
       },
+    },
+    indent_markers = {
+      enable = true,
     },
   },
 }

@@ -2,8 +2,8 @@
 local M = {}
 
 M.ui = {
-  theme = "oxocarbon",
-  theme_toggle = { "oxocarbon", "github_light" },
+  theme = "gruvbox",
+  theme_toggle = { "gruvbox", "github_light" },
 
   statusline = {
     theme = "vscode_colored",
