@@ -17,7 +17,7 @@ local servers = {
 
 vim.diagnostic.config {
   underline = false,
-  virtual_text = false,
+  virtual_text = true,
   float = {
     source = "always",
   },

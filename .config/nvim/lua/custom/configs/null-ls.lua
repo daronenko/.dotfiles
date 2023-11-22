@@ -49,6 +49,12 @@ local sources = {
 
   -- markdown
   b.diagnostics.markdownlint,
+
+  -- sql
+  b.diagnostics.sqlfluff.with {
+    extra_args = { "--dialect", "postgres" },
+  },
+  b.formatting.sql_formatter,
 }
 
 null_ls.setup {

@@ -71,7 +71,7 @@ M.mason = {
 
     -- markdown
     "marksman",
-    "markdownlint"
+    "markdownlint",
   },
 }
 

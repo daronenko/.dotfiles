@@ -64,6 +64,8 @@ brew "stow"
 brew "libpq"
 # 'go to definition' feature
 brew "ctags"
+brew "go"
+brew "pypy3"
 # Distribution of the Python and R programming languages for scientific computing
 cask "anaconda"
 # Terminal emulator as alternative to Apple's Terminal app
