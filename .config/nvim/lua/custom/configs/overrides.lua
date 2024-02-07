@@ -1,26 +1,12 @@
 local M = {}
 
+-- https://github.com/nvim-treesitter/nvim-treesitter#supported-languages
 M.treesitter = {
   ensure_installed = {
-    -- defaults
-    "vim",
-    "lua",
-
-    -- web
-    "html",
-    "css",
-    "javascript",
-    "ruby",
-
-    -- main
     "c",
     "cpp",
     "python",
     "bash",
-
-    -- others
-    "markdown",
-    "markdown_inline",
     "latex",
   },
   indent = {
@@ -30,27 +16,12 @@ M.treesitter = {
 
 M.mason = {
   ensure_installed = {
-    -- lua
-    "lua-language-server",
-    "stylua",
-
-    -- web
-    "html-lsp",
-    "css-lsp",
-    "typescript-language-server",
-    "stylelint",
-    "eslint_d",
-    "prettier",
-
-    -- ruby
-    "rubocop",
-    "rufo",
-
     -- c/cpp
     "clangd",
     "cpplint",
     "clang-format",
 
+    -- cmake
     "cmake-language-server",
     "cmakelint",
 
@@ -69,9 +40,9 @@ M.mason = {
     "texlab",
     "latexindent",
 
-    -- markdown
-    "marksman",
-    "markdownlint",
+    -- assebmly
+    "asm-lsp",
+    "asmfmt",
   },
 }
 

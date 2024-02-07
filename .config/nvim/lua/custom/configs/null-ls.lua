@@ -1,28 +1,10 @@
 local null_ls = require "null-ls"
+local augroup = vim.api.nvim_create_augroup("LspFormatting", {})
 
 local b = null_ls.builtins
 
+-- https://github.com/jose-elias-alvarez/null-ls.nvim/blob/main/doc/BUILTINS.md
 local sources = {
-  -- lua
-  b.formatting.stylua,
-
-  -- web
-  b.diagnostics.stylelint,
-  b.code_actions.eslint_d,
-  b.formatting.prettier.with {
-    filetypes = {
-      "html",
-      "css",
-      "javascript",
-      "typescript",
-      "json",
-    },
-  },
-
-  -- ruby
-  b.diagnostics.rubocop,
-  b.formatting.rufo,
-
   -- cpp
   b.diagnostics.cpplint,
   b.formatting.clang_format,
@@ -45,16 +27,10 @@ local sources = {
   b.formatting.beautysh,
 
   -- latex
-  -- b.formatting.latexindent,
+  b.formatting.latexindent,
 
-  -- markdown
-  b.diagnostics.markdownlint,
-
-  -- sql
-  b.diagnostics.sqlfluff.with {
-    extra_args = { "--dialect", "postgres" },
-  },
-  b.formatting.sql_formatter,
+  -- assembly
+  b.formatting.asmfmt,
 }
 
 null_ls.setup {

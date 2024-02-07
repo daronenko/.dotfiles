@@ -74,13 +74,6 @@ local plugins = {
       vim.g.mkdp_filetypes = { "markdown" }
     end,
     ft = { "markdown" },
-  },
-  {
-    "windwp/nvim-ts-autotag",
-    lazy = false,
-    config = function()
-      require("nvim-ts-autotag").setup()
-    end,
   }
 }
 

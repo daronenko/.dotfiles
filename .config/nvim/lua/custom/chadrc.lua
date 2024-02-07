@@ -2,8 +2,8 @@
 local M = {}
 
 M.ui = {
-  theme = "solarized_dark",
-  theme_toggle = { "solarized_dark", "github_light" },
+  theme = "oceanic-next",
+  theme_toggle = { "oceanic-next", "github_light" },
 
   statusline = {
     theme = "vscode_colored",
